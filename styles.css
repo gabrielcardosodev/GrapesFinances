@@ -106,6 +106,7 @@ table th {
 table tbody tr {
   border-radius: 0.5rem;
   opacity: 0.7;
+  transition: 0.6s;
 }
 
 table tbody tr:hover {
