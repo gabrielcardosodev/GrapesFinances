@@ -178,3 +178,15 @@ footer p a {
 footer p a:hover {
   color: #d6d1ff;
 }
+
+@media (min-width: 800px) {
+  html {
+    font-size: 83.75%;
+  }
+
+  #balance {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
