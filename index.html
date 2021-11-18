@@ -17,32 +17,40 @@
   </head>
   <body>
     <header>
-      <img id="img-logo" src="./assets/logo.svg" alt="ícone de uma uva" />
-      <h1 id="logo">Grapes<span>.</span>Finance<span>$</span></h1>
+      <img id="logo" src="./assets/logo.svg" alt="ícone de uma uva" />
     </header>
 
     <main class="container">
       <section id="balance">
-        <h2>Balanço</h2>
+        <h2 class="sr-only">Balanço</h2>
 
         <div class="card">
-          <h3>Entradas</h3>
+          <h3>
+            <span>Entradas</span>
+            <img src="./assets/income.svg" alt="imagem de entrada" />
+          </h3>
           <p>R$ 5.000,00</p>
         </div>
 
         <div class="card">
-          <h3>Saídas</h3>
+          <h3>
+            <span>Saídas</span>
+            <img src="./assets/expense.svg" alt="imagem de saídas" />
+          </h3>
           <p>R$ 2.000,00</p>
         </div>
 
         <div class="card total">
-          <h3>Total</h3>
+          <h3>
+            <span>Total</span>
+            <img src="./assets/total.svg" alt="imagem de total" />
+          </h3>
           <p>R$ 3.000,00</p>
         </div>
       </section>
 
       <section id="transaction">
-        <h2>Transações</h2>
+        <h2 class="sr-only">Transações</h2>
         <table id="data-table">
           <thead>
             <tr>

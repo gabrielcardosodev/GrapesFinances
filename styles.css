@@ -15,6 +15,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .container {
   width: min(90vw, 800px);
   margin: auto;
@@ -30,27 +42,18 @@ h2 {
 /* header */
 header {
   background: #564c89;
-  padding: 2rem 0 11rem;
+  padding: 2rem 0 10rem;
   text-align: center;
 }
 
-#img-logo {
-  width: 100px;
-}
-
 #logo {
-  margin-top: 0.3rem;
-  color: #c2baff;
-  font-weight: 400;
-}
-
-#logo span {
-  color: #9994ff;
+  margin-top: 2rem;
+  width: 250px;
 }
 
 /* balance */
 #balance {
-  margin-top: -8rem;
+  margin-top: -5rem;
 }
 
 #balance h2 {
@@ -70,6 +73,9 @@ header {
 .card h3 {
   font-size: 1rem;
   font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card p {
