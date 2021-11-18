@@ -10,6 +10,10 @@
   text-decoration: none;
 }
 
+html {
+  font-size: 93.75%;
+}
+
 body {
   background: #f0f2f5;
   font-family: "Poppins", sans-serif;
@@ -102,6 +106,12 @@ header {
 }
 
 /* table */
+#transaction {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
 #data-table {
   width: 100%;
   border-spacing: 0 0.5rem;
