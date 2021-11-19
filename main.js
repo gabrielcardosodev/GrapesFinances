@@ -1,5 +1,8 @@
-function helloWorld() {
-  console.log("Hello World");
-}
-
-helloWorld();
+const Modal = {
+  on() {
+    document.querySelector(".modal-overlay").classList.add("active");
+  },
+  close() {
+    document.querySelector(".modal-overlay").classList.remove("active");
+  },
+};

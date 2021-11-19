@@ -12,7 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-
     <title>Grapes.Finance$</title>
   </head>
   <body>
@@ -52,7 +51,7 @@
       <section id="transaction">
         <h2 class="sr-only">Transações</h2>
 
-        <a href="#" class="button new">+ Nova Transação</a>
+        <a href="#" onclick="Modal.on()" class="button new">+ Nova Transação</a>
         <table id="data-table">
           <thead>
             <tr>
@@ -94,6 +93,53 @@
         </table>
       </section>
     </main>
+
+    <div class="modal-overlay modal-overlay">
+      <div class="modal">
+        <div id="form">
+          <h2>Nova Transação</h2>
+          <form action="">
+            <div class="input-group">
+              <label class="sr-only" for="description">Descrição</label>
+              <input
+                type="text"
+                name="description"
+                id="description"
+                placeholder="Descrição"
+              />
+            </div>
+
+            <div class="input-group">
+              <label class="sr-only" for="amount">Valor</label>
+              <input
+                type="number"
+                name="amount"
+                step="0.01"
+                id="amount"
+                placeholder="0,00"
+              />
+              <small class="help"
+                >Use o sinal de - (negativo) para despesas e , (vírgula) para
+                casas decimais.</small
+              >
+            </div>
+
+            <div class="input-group">
+              <label class="sr-only" for="date">Data</label>
+              <input type="date" name="date" id="date" />
+            </div>
+
+            <div class="input-group actions">
+              <a href="#" onclick="Modal.close()" class="button cancel"
+                >Cancelar</a
+              >
+              <button>Salvar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <p>
         Grapes.Finance$ feito por:
@@ -106,5 +152,6 @@
         caso você queira acessar o repositório do projeto.
       </p>
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>

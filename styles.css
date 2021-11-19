@@ -43,21 +43,23 @@ h2 {
   font-weight: 400;
 }
 
+small {
+  color: var(--dark-purple);
+}
 /* header */
 header {
   background: #564c89;
-  padding: 2rem 0 9.875rem;
+  padding: 2rem 0 8.875rem;
   text-align: center;
 }
 
 #logo {
-  margin-top: 2rem;
-  width: 250px;
+  width: 190px;
 }
 
 /* balance */
 #balance {
-  margin-top: -5.225rem;
+  margin-top: -7.225rem;
 }
 
 #balance h2 {
@@ -69,7 +71,7 @@ header {
 .card {
   background: #d6d1ff;
   padding: 1.5rem 2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.3125rem;
   margin-bottom: 2rem;
   color: var(--dark-purple);
 }
@@ -94,6 +96,22 @@ header {
 }
 
 /* buttons */
+button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: #9994ff;
+  color: #d6d1ff;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 0.3125rem;
+  transition: 0.6s;
+}
+
+button:hover {
+  background: #564c89;
+}
+
 .button.new {
   display: inline-block;
   color: #9994ff;
@@ -103,6 +121,22 @@ header {
 
 .button.new:hover {
   color: #d6d1ff;
+}
+
+.button.cancel {
+  color: var(--dark-purple);
+  border: 2px var(--dark-purple) solid;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s;
+  border-radius: 0.3125rem;
+  opacity: 0.6;
+}
+
+.button.cancel:hover {
+  opacity: 1;
 }
 
 /* table */
@@ -120,12 +154,12 @@ header {
 
 table thead tr th:first-child,
 table tbody tr td:first-child {
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: 0.3125rem 0 0 0.3125rem;
 }
 
 table thead tr th:last-child,
 table tbody tr td:last-child {
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0 0.3125rem 0.3125rem 0;
 }
 
 table th {
@@ -136,7 +170,7 @@ table th {
 }
 
 table tbody tr {
-  border-radius: 0.5rem;
+  border-radius: 0.3125rem;
   opacity: 0.7;
   transition: 0.6s;
 }
@@ -162,6 +196,71 @@ table .expense {
   color: #e92929;
 }
 
+/* modal */
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background: #d6d1ff;
+  padding: 2.5rem;
+  border-radius: 0.3125rem;
+}
+
+/* form */
+#form {
+  max-width: 500px;
+}
+
+#form h2 {
+  margin-top: 0;
+}
+
+input {
+  border: none;
+  border-radius: 0.3125rem;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+input::placeholder,
+input#date {
+  color: var(--dark-purple);
+}
+
+.input-group {
+  margin-top: 0.8rem;
+}
+
+.input-group small {
+  opacity: 0.5;
+}
+
+.input-group.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-group.actions .button,
+.input-group.actions button {
+  width: 48%;
+}
+
 /* footer */
 footer {
   text-align: center;
@@ -179,6 +278,7 @@ footer p a:hover {
   color: #d6d1ff;
 }
 
+/* reponsive */
 @media (min-width: 800px) {
   html {
     font-size: 83.75%;
