@@ -45,5 +45,5 @@ Feito por Gabriel Cardoso 👋🏽 Entre em contato!
 
  <div> 
   <a href = "mailto:gabrielcardosodeveloper@gmail.com"><img src="https://img.shields.io/badge/-Gmail-003140?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/anderson-andre-pereira/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-003140?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href="https://www.linkedin.com/in/gabrielcardosodev/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-003140?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
