@@ -49,17 +49,18 @@ small {
 /* header */
 header {
   background: #564c89;
-  padding: 2rem 0 8.875rem;
+  padding: 2rem 0 5.575rem;
   text-align: center;
 }
 
 #logo {
-  width: 190px;
+  width: 14rem;
+  margin-bottom: 1.5rem;
 }
 
 /* balance */
 #balance {
-  margin-top: -7.225rem;
+  margin-top: -5rem;
 }
 
 #balance h2 {
@@ -70,7 +71,7 @@ header {
 /* card */
 .card {
   background: #d6d1ff;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   border-radius: 0.3125rem;
   margin-bottom: 2rem;
   color: var(--dark-purple);
@@ -184,6 +185,10 @@ table td {
   padding: 1rem 2rem;
 }
 
+table td img {
+  cursor: pointer;
+}
+
 table .description {
   color: var(--dark-purple);
 }
@@ -278,10 +283,33 @@ footer p a:hover {
   color: #d6d1ff;
 }
 
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #d6d1ff; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #9994ff; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid #d6d1ff; /* creates padding around scroll thumb*/
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #d6d1ff;
+}
+
 /* reponsive */
 @media (min-width: 800px) {
   html {
     font-size: 83.75%;
+  }
+
+  #logo {
+    width: 18rem;
   }
 
   #balance {
