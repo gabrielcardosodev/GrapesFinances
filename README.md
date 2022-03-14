@@ -7,7 +7,7 @@
 </h2>
 
 <p align="center">App feito durante a maratona do Discover,  onde aprendi bastante sobre como manipular DOM e também como organizar melhor o código. De longe, foi o projeto que mais gostei de fazer alterações no layout, alterações como: a paleta de cores, adição de imagens, alteração da scrollbar, pequenas transitions nos hover's, entre outras. Você consegue ver o app  <a
-href="https://gabrielcardosodev.github.io/GrapesFinances/" target="_blank">clicando aqui.</a>
+href="https://gabrielcardosodev.github.io/GrapesFinances/" target="blank">clicando aqui.</a>
 </p>
 
 <h2 align="center">
@@ -44,6 +44,6 @@ Mobile
 Feito por Gabriel Cardoso 👋🏽 Entre em contato!
 
  <div> 
-  <a href = "mailto:gabrielcardosodeveloper@gmail.com"><img src="https://img.shields.io/badge/-Gmail-003140?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/gabrielcardosodev/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-003140?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:gabrielcardosodeveloper@gmail.com"><img src="https://img.shields.io/badge/-Gmail-003140?style=for-the-badge&logo=gmail&logoColor=white" target="blank"></a>
+  <a href="https://www.linkedin.com/in/gabrielcardosodev/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-003140?style=for-the-badge&logo=linkedin&logoColor=white" target="blank"></a> 
 </div>
